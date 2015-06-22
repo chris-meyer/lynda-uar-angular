@@ -12,6 +12,8 @@ myApp.controller("MyController", ['$scope','$http' , function ($scope, $http){
   $http.get('js/data.json').success(function(data){
     //In this case, $scope carries the data to use in the App
     $scope.artists = data;
+    //Set default sort field to name
+    $scope.artistOrder = 'name';
 
   });
 
