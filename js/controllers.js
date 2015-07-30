@@ -1,5 +1,5 @@
 //Angular var that Sets Namespace for the App
-var artistControllers = angular.module("artistControllers", []);
+var artistControllers = angular.module("artistControllers", ['ngAnimate']);
 
 /**
 * Controller to handle displaying the artist list
